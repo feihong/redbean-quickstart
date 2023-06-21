@@ -5,4 +5,7 @@ start:
 	./redbean.com -vv
 
 add:
-	zip redbean.com .init.lua hello.html hello.lua write.lua read-db.lua
+	zip redbean.com .init.lua hello.html hello.lua write.lua read-db.lua make-db.lua
+
+init:
+	./redbean.com -i /zip/make-db.lua
